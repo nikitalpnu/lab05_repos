@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-double h(const double x, const double y); // прототип
+double h(const double x, const double y); 
 int main()
 {
 	double s, t;
@@ -12,7 +12,7 @@ int main()
 	cout << "c = " << c << endl;
 	return 0;
 }
-double h(const double x, const double y) // визначення
+double h(const double x, const double y) 
 {
 	return ((x*y)/(1+x*x*y*y));
 }
